@@ -42,16 +42,16 @@ def installAll(toolVersion: String) =
      |apk add bash curl nodejs-npm &&
      |npm install -g npm@5 &&
      |npm install -g eslint@$toolVersion &&
-     |npm install -g babel-eslint@8.0.3 &&
+     |npm install -g babel-eslint@^10.0.1 &&
      |npm install -g eslint-plugin-import@2.9.0 &&
-     |npm install -g eslint-plugin-jsx-a11y@6.0.3 &&
-     |npm install -g eslint-plugin-react@7.8.2 &&
+     |npm install -g eslint-plugin-jsx-a11y@6.1.1 &&
+     |npm install -g eslint-plugin-react@7.11.1 &&
      |npm install -g webpack@3.6.0 &&
      |npm install -g eslint-plugin-jest@21.15.0 &&
-     |npm install -g eslint-import-resolver-webpack@0.8.3 &&
+     |npm install -g eslint-import-resolver-webpack@0.10.1 &&
      |npm install -g eslint-import-resolver-node@0.3.1 &&
      |npm install -g eslint-config-airbnb-base@12.1.0 &&
-     |npm install -g eslint-config-airbnb@16.1.0 &&
+     |npm install -g eslint-config-airbnb@17.1.0 &&
      |npm install -g eslint-config-angular@0.5.0 &&
      |npm install -g eslint-config-apiconnect@2.0.1 &&
      |npm install -g eslint-config-drupal@3.0.0 &&
@@ -59,10 +59,11 @@ def installAll(toolVersion: String) =
      |npm install -g eslint-config-es6@1.10.3 &&
      |npm install -g eslint-config-loopback@8.0.0 &&
      |npm install -g eslint-config-nodesecurity@1.3.1 &&
-     |npm install -g eslint-plugin-node@5.1.1 &&
+     |npm install -g eslint-plugin-node@7.11.1 &&
      |npm install -g eslint-plugin-promise@4.0.1 &&
-     |npm install -g eslint-plugin-standard@3.0.1 &&
-     |npm install -g eslint-config-standard@10.2.1 &&
+     |npm install -g eslint-config-react@7.0.2 &&
+     |npm install -g eslint-plugin-standard@4.0.0 &&
+     |npm install -g eslint-config-standard@12.0.0 &&
      |npm install -g eslint-config-strongloop@2.1.0 &&
      |npm install -g eslint-plugin-vue@4.7.1 &&
      |npm install -g eslint-config-vue@2.0.2 &&
@@ -89,7 +90,7 @@ def installAll(toolVersion: String) =
      |npm install -g eslint-config-xo-react@0.13.0 &&
      |npm install -g eslint-config-xo-space@0.16.0 &&
      |npm install -g eslint-plugin-angular@3.1.1 &&
-     |npm install -g eslint-plugin-babel@4.1.2 &&
+     |npm install -g eslint-plugin-babel@^5.2.1 &&
      |npm install -g eslint-plugin-backbone@2.1.1 &&
      |npm install -g eslint-plugin-flowtype@2.35.1 &&
      |npm install -g eslint-plugin-html@3.2.2 &&
